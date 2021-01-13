@@ -1,0 +1,25 @@
+:root {
+  --gray-1: #e5e5e5;
+  --gray-2: #bdbdbd;
+  --gray-3: #a9a9a9;
+  --gray-4: #4e5150;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100vh;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
